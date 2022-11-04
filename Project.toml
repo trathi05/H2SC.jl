@@ -1,0 +1,13 @@
+name = "H2SC"
+uuid = "e8748ba3-d714-407f-9b7f-67da004433bb"
+authors = ["Tushar Rathi"]
+version = "0.1.0"
+
+[compat]
+julia = "1.8"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
